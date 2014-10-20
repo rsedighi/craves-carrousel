@@ -70,11 +70,11 @@
 /* BG */
 
 	#bg {
-		-moz-animation: bg 200s linear infinite;
-		-webkit-animation: bg 200s linear infinite;
-		-o-animation: bg 200s linear infinite;
-		-ms-animation: bg 200s linear infinite;
-		animation: bg 200s linear infinite;
+		-moz-animation: bg 100s linear infinite;
+		-webkit-animation: bg 100s linear infinite;
+		-o-animation: bg 100s linear infinite;
+		-ms-animation: bg 100s linear infinite;
+		animation: bg 100s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-o-backface-visibility: hidden;
@@ -86,7 +86,7 @@
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		background-color: #E5EBEE;
-		background-image: url("images/bg.jpg"), url("images/bg2.jpg");
+		background-image: url("images/farshadpic2.jpg"), url("images/farshadpic.jpg"), url("images/farshadpic3.jpg");
 		background-position: bottom left;
 		background-repeat: no-repeat, repeat-x;
 		height: 100%;
@@ -120,7 +120,7 @@
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		/*background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");*/
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -191,16 +191,18 @@
 	}
 
 		#header h1 {
-			font-size: 4.35em;
+			font-size: 7em;
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			font-family: 'Lobster', cursive;
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 2.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
+			font-weight: bolder;
 		}
 
 		#header nav {
