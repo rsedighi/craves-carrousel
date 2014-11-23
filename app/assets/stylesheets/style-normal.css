@@ -21,3 +21,27 @@
 		background-size: 1200px auto;
 		width: 3600px;
 	}
+@media only screen and (min-width: 713px) and (max-width: 1440px) {
+  .containers {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+  }
+
+
+  .input-group-addon,
+  .input-group-btn,
+  .input-group .form-control {
+  display: block;
+  left: 165%;
+  }
+
+}
+
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(44, 35, 23, 0.59);
+   padding: 65px 0;
+  border-radius: 3%;
+}
+

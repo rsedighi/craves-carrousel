@@ -50,6 +50,12 @@
 		#header nav a:active {
 			font-size: 1em;
 		}
+    .input-group-addon,
+  .input-group-btn,
+  .input-group .form-control {
+  display: block;
+  left: 120%;
+  }
 
 		/* #Media Queries
 ================================================== */
@@ -66,7 +72,14 @@
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+  @media only screen and (min-width: 450px) and (max-width: 767px) {
+    .input-group-addon,
+      .input-group-btn,
+      .input-group .form-control {
+      display: block;
+          width: 125px;
+      }
+  }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 639px) {
@@ -83,3 +96,11 @@
       color: black;
     }
   }
+@media only screen and (min-width: 400px) and (max-width: 449px) {
+.input-group-addon,
+  .input-group-btn,
+  .input-group .form-control {
+  display: block;
+  left: 45%;
+  }
+}
