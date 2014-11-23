@@ -1,0 +1,24 @@
+<%= form_for(@message) do |f| %>
+  <% if @message.errors.any? %>
+    <div id="error_explanation">
+      <h3><%= pluralize(@message.errors.count, "error") %> prohibited this message from being saved:</h3>
+
+      <ul>
+      <% @message.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+<div class="input-group">
+    <%= f.text_field :email, :class=>"form-control", :placeholder=>"Enter your email" %>
+    <span class="input-group-btn">
+      <%= f.submit :type=>"submit", :class=>"btn btn-warning",  :value=>"Crave Us!" %>
+    </span>
+    </div>
+  </div>
+
+
+<% end %>

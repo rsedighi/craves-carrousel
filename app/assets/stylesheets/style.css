@@ -70,11 +70,11 @@
 /* BG */
 
 	#bg {
-		-moz-animation: bg 100s linear infinite;
-		-webkit-animation: bg 100s linear infinite;
-		-o-animation: bg 100s linear infinite;
-		-ms-animation: bg 100s linear infinite;
-		animation: bg 100s linear infinite;
+		-moz-animation: bg 0s linear infinite;
+		-webkit-animation: bg 0s linear infinite;
+		-o-animation: bg 0s linear infinite;
+		-ms-animation: bg 0s linear infinite;
+		animation: bg 0s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-o-backface-visibility: hidden;
@@ -86,7 +86,7 @@
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		background-color: #E5EBEE;
-		background-image: url("images/farshadpic2.jpg"), url("images/farshadpic.jpg"), url("images/farshadpic3.jpg");
+		background-image: url("images/craves.jpg");
 		background-position: bottom left;
 		background-repeat: no-repeat, repeat-x;
 		height: 100%;
@@ -379,3 +379,5 @@
 		text-align: center;
 		width: 100%;
 	}
+
+

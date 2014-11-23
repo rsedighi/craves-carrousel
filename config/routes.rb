@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+      resources :messages, only: [:new, :create]
   root 'home#index'
     # resources :home do
     #   member do
