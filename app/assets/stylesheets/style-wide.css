@@ -31,3 +31,21 @@
   margin-right: auto;
   width: 750px;
 }
+
+  @media only screen and (min-width: 1441px) {
+    .input-group-addon,
+    .input-group-btn,
+    .input-group .form-control {
+    display: block;
+    width: 366px;
+    }
+  }
+
+@media only screen and (min-width: 1681px) and (max-width: 1770px) {
+  .input-group-addon,
+  .input-group-btn,
+  .input-group .form-control {
+  display: block;
+width: 430px;
+  }
+}

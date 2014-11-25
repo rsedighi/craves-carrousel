@@ -104,3 +104,22 @@
   left: 45%;
   }
 }
+
+@media only screen and (min-width: 4561px) and (max-width: 449px) {
+  .input-group-addon,
+.input-group-btn,
+.input-group .form-control {
+display: block;
+width: 120px;
+left: 72%;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 399px) {
+.input-group-addon,
+.input-group-btn,
+.input-group .form-control {
+display: block;
+width: 120px;
+left: 72%;
+  }
+}
