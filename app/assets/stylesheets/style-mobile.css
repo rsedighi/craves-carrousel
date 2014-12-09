@@ -77,7 +77,7 @@
       .input-group-btn,
       .input-group .form-control {
       display: block;
-          width: 125px;
+      width: 125px;
       }
   }
 
@@ -123,3 +123,4 @@ width: 120px;
 left: 72%;
   }
 }
+

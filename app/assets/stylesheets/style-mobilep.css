@@ -11,8 +11,32 @@
 	@-ms-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-750px,0,0); -webkit-transform: translate3d(-750px,0,0); -o-transform: translate3d(-750px,0,0); -ms-transform: translate3d(-750px,0,0); transform: translate3d(-750px,0,0); } }
 	@keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-750px,0,0); -webkit-transform: translate3d(-750px,0,0); -o-transform: translate3d(-750px,0,0); -ms-transform: translate3d(-750px,0,0); transform: translate3d(-750px,0,0); } }
 
-	#bg {
-		background-size: 750px auto;
-		width: 2250px;
-	}
 
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+.input-group-addon,
+.input-group-btn,
+.input-group .form-control {
+display: block;
+width: 120px;
+left: 44%;
+  }
+
+    #bg {
+  background-size: 1090px;
+  width: 100%;
+  min-height: 100%;
+  }
+
+  #header h2{
+	font-size:35px;
+  }
+
+  #header h1{
+  	font-size: 3.9em;
+		font-weight: 900;
+		letter-spacing: -0.035em;
+		line-height: 0em;
+		font-family: 'Lobster', cursive;
+  }
+}
