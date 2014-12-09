@@ -18,8 +18,11 @@
 	@keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-1200px,0,0); -webkit-transform: translate3d(-1200px,0,0); -o-transform: translate3d(-1200px,0,0); -ms-transform: translate3d(-1200px,0,0); transform: translate3d(-1200px,0,0); } }
 
 	#bg {
-		background-size: 1200px auto;
-		width: 3600px;
+ background-size: cover;
+  background-clip: padding-box;
+  width: 100%;
+  height: 54.9em;
+  min-height: 100%;
 	}
 @media only screen and (min-width: 713px) and (max-width: 1440px) {
   .containers {
@@ -38,10 +41,5 @@
 
 }
 
-.jumbotron {
-   background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background: rgba(44, 35, 23, 0.59);
-   padding: 65px 0;
-  border-radius: 3%;
-}
+
 
